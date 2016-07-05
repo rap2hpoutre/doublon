@@ -1,6 +1,16 @@
 # Doublon
 Remove duplicate lines in a file. Warning, it will erase the previous file.
 
+## Install
+
+```
+git clone https://github.com/rap2hpoutre/doublon.git
+cargo build --release
+mv target/release/doublon /usr/local/bin/doublon
+
+doublon -h
+```
+
 ## Usage
 
 ```
